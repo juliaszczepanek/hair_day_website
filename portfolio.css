@@ -1,0 +1,225 @@
+body {
+    background-color: #FBFEFB;
+    font-family: 'Montserrat';font-size: 15px;
+}
+
+header{
+    display: flex;
+    padding: 10px 10px;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    height: 160px;
+
+}
+
+footer img{
+    width: 300px;
+    height: 30px;
+}
+
+nav ul{
+    list-style: none;
+    align-items: center;
+    color: black;
+    background-color: #EFE5DC;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-size: 17px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color:#FFFFFF;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+h1{
+    font-size: 2.5rem;
+
+}
+
+h2{
+    font-size: 2rem;    
+}
+
+.mainheader{
+    display: grid;
+    text-align: center;
+    flex-wrap: wrap;
+    place-items: center;
+    margin: 20px 50px 20px 50px;
+    background-image: url("salon2.jpg");
+    background-color:#EFE5DC;
+    opacity: 0.9;
+    background-position: center;
+    background-size: 920px 550px;
+}
+.container{
+    display: flex;
+    text-align: center;
+    margin: 5px 1px 1px 5px;
+    color: #984839;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    flex-wrap: wrap;
+    opacity: 0.75;
+    border-radius: 10px;
+}
+.description{
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    
+    align-items:  center;
+}
+.header1{
+    color: #873021;
+}
+
+section {
+    display: flex;
+    background-color: #FFFFFF;
+    color: #D0604C;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    place-items: center;
+    background-color: #EFE5DC;
+    color: #D0604C;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+footer div{
+    flex: 1;
+}
+
+article img{
+    width: 200px;
+    height: 200px;
+    place-items: center;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: orangered;
+  }
+
+.navigation{
+    background-color: #EFE5DC;    padding: 1em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+a:link {
+    color: #D0604C;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+#frenchplait{
+    background-color: #D0604C;
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 16px;;
+}
+
+#frenchplait:hover{
+    background-color: #EFE5DC;
+    color: #D0604C;
+}
+
+#contouring:hover{
+    background-color: #EFE5DC;
+    color: #D0604C;
+}
+
+#hybrid:hover{
+    background-color: #EFE5DC;
+    color: #D0604C;
+}
+
+#contouring{
+    background-color: #D0604C;
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 16px;;
+}
+
+#hybrid{
+    background-color: #D0604C;
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 16px;;
+}
+
+
+.container:hover{
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 10px;
+}
+
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#frenchplait p{
+    margin: 10px 10px 10px 10px;
+}
+
+#contouring p{
+    margin: 10px 10px 10px 10px;
+}
+
+#hybrid p{
+    margin: 10px 10px 10px 10px;
+}
+
+.learning{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #D0604C;
+    background-color: #EFE5DC;
+    margin: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 30px;
+
+}
+
+.learning:hover{
+	transform: rotatey(180deg);
+
+
+	transition: 2.5s;
+}
