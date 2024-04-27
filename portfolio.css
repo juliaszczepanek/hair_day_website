@@ -57,7 +57,7 @@ h2{
     flex-wrap: wrap;
     place-items: center;
     margin: 20px 50px 20px 50px;
-    background-image: url("salon2.jpg");
+    background-image: url("./img/salon2.jpg");
     background-color:#EFE5DC;
     opacity: 0.9;
     background-position: center;
