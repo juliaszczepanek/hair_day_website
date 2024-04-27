@@ -1,4 +1,4 @@
-# HAIR DAY WEBSITE
+# Hair Day Website
 
 Hair Day: A project from Coursera Meta Front-End Development course showcasing HTML/CSS skills
 
